@@ -1,0 +1,12 @@
+Package: myPkg
+Title: My toy package (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rakesh", "Poduval", , "rakesh.poduval@gmail.com", 
+           role = c("aut", "cre"), comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: It tests several features for a typical R package.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
