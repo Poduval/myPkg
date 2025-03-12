@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^make_package\.R$
 ^README\.Rmd$
+^release$
