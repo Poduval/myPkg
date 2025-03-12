@@ -1,14 +1,36 @@
 library(devtools)
-
 devtools::session_info()
 
 # create_package(path = getwd())
-
-use_git()
+# use_git()
 
 # adding a function ====
 
-add2vars <- function(x, y ) {
-  x + y
-}
+use_r("add2vars")
 
+exists("add2vars", where = globalenv(), inherits = FALSE)
+
+load_all()
+
+add2vars(12, 14)
+
+check()
+
+use_mit_license()
+document()
+use_git_ignore("make_package.R")
+use_build_ignore("make_package.R")
+
+install()
+
+library(myPkg)
+myPkg::add2vars(2, 3)
+
+use_testthat()
+use_test("add2vars")
+test()
+
+use_github()
+use_readme_rmd()
+
+build_readme()

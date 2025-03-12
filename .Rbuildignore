@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^myPkg\.Rproj$
+^LICENSE\.md$
+^make_package\.R$
+^README\.Rmd$
