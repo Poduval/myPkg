@@ -21,6 +21,8 @@ document()
 use_git_ignore("make_package.R")
 use_build_ignore("make_package.R")
 
+
+
 install()
 
 library(myPkg)
@@ -34,3 +36,6 @@ use_github()
 use_readme_rmd()
 
 build_readme()
+
+check()
+install()

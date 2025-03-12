@@ -6,7 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of `myPkg` is to test various features of a typical R package.
+The goal of myPkg is to explore and test various aspects of R package
+development, including function implementation, documentation, unit
+testing, dependency management, and package distribution. It serves as a
+learning tool for understanding best practices, automation, and the
+complete lifecycle of an R package.
 
 ## Installation
 
@@ -20,11 +24,10 @@ devtools::install_github("Poduval/myPkg")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This simple example shows how to add two numbers together.
 
 ``` r
 library(myPkg)
-## basic example code
 add2vars(2, 3)
 #> [1] 5
 ```
